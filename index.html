@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ALDABALDETREKU</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+
+<body>
+
+    <div class="menu">
+        <div class="menu-izq">
+            <button class="icon-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <line x1="4" y1="7" x2="20" y2="7"></line>
+                    <line x1="4" y1="12" x2="20" y2="12"></line>
+                    <line x1="4" y1="17" x2="20" y2="17"></line>
+                </svg>
+            </button>
+            <button class="icon-btn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+        </div>
+
+        <a class="menu-centro" onclick="goToPage('page1')">
+            <p class="logo-text" style="font-weight: 100; font-size: 70%;">-Sastrería-</p>
+            <h1 class="logo-text">ALDABALDETREKU</h1>
+        </a>
+
+        <div class="menu-der">
+            <button class="icon-btn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="7" r="4"></circle>
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                </svg>
+            </button>
+            <button class="icon-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div id="page1" class="page active">
+
+        <div class="inicioA">
+            <h2> - Sastrería - </h2>
+            <h1>ALDABALDETREKU</h1>
+            <p class="tituloP_parte1">"No seas uno más,</p> 
+            <p class="tituloP_parte2"> se tú mismo."</p>
+        </div>
+
+        <div class="inicioB">
+            <div class="secciones">
+                <h2>AMERICANAS</h2>
+                <img src="img/inicio_seccion_americana.jpg"
+                    alt="">
+            </div>
+            <div class="secciones">
+                <h2>CAMISAS</h2>
+                <img src="img/inicio_seccion_camisa.jpg"
+                    alt="">
+            </div>
+            <div class="secciones"> 
+                <h2>PANTALONES</h2>
+                <img src="img/inicio_seccion_pantalon.jpg"
+                    alt="">
+            </div>
+            <a class="secciones" onclick="goToPage('page2')">
+                <h2>CORBATAS</h2>
+                <img src="img/inicio_seccion_corbatas.jpg">
+            </a>
+            <div class="secciones">
+                <h2>CHALECOS</h2>
+                <img src="img/inicio_seccion_chaleco.jpg"
+                    alt="">
+            </div>
+            <div class="secciones">
+                <h2>ZAPATOS</h2>
+                <img src="img/inicio_seccion_zapato.jpg"
+                    alt="">
+            </div>
+        </div>
+        
+        <div class="inicioIntro">
+            <h2>Sobre nuestra tienda</h2>
+            <p style="padding: 10px 120px; margin:0; font-size: 90%;">Somos una empresa familiar, que abrió sus puertas en 1983 y que continúa con su segunda generación, somos jóvenes, dinámicos y lo más importante: hacemos de nuestro trabajo, nuestra pasión. Lo nuestro es hacer realidad nuestro eslogan: “no seas uno más, sé tú mismo”. Nos gusta escucharos, atenderos con todo nuestro cariño y conseguir que os miréis en el espejo y os reflejéis en vuestro traje.</p>
+        </div>
+
+        <div class="inicio_fotoDoble">
+            <img src="img/inicio_dobleA.jpg"
+            alt="">
+            <img src="img/inicio_dobleB.jpg"
+            alt="">
+        </div>
+
+        
+        <div class="separador">
+            <p> ~ EXPERTOS EN BODAS ~ </p>
+        </div>
+
+        <div class="inicioE" style="margin-bottom: 30px; background-image: url(img/inicio_novio.jpg);">
+            <h2 class="novioInvitado" style="top: -40px; left: 45px;">NOVIO</h2>            
+        </div>
+        <div class="inicioE" style="margin-bottom: 30px; background-image: url(img/inicio_invitados.jpg);">
+            <h2 class="novioInvitado" style="top: 275px; left: 550px;">INVITADOS</h2>            
+        </div>
+        
+        <div class="inicioIntro" ">
+            <h2>Descarga nuestro catálogo</h2>
+            <p>Cada año curamos una selección de las mejores prendas para cada ocasión. Las mejores telas, los mejores cortes, todo para que puedas "ser tu mismo" en cada ocasión.</p>
+            <div class="formularioMentira" style="margin-top: 30px;"><strong>CATÁLOGO</strong></div>
+        </div>
+
+        <div class="inicioD">
+            <img src="img/inicio_final.jpg"
+            alt="">
+        </div>
+
+        <div class="inicioIntro">
+            <h2>Te escuchamos</h2>
+            <p>En Sastrería 
+            Somos especialistas en novios, padrinos e invitados; lo nuestro es hacer realidad nuestro eslogan: “no seas uno más, sé tú mismo”.</p>
+            <p>Nos gusta escucharos, atenderos con todo nuestro cariño y conseguir que os miréis en el espejo y os reflejéis en vuestro traje. Somos una empresa familiar, que abrió sus puertas en 1983 y que continúa con su segunda generación, somos jóvenes, dinámicos y lo más importante: hacemos de nuestro trabajo, nuestra pasión.</p>
+            
+            <p>DISPONEMOS DE TALLAS ESPECIALES HASTA 5XL, CONSÚLTANOS.</p>
+        </div>
+
+
+         <div class="inicioC">
+            <img src="img/inicio_01.jpg"
+            alt="">
+        </div>
+
+        
+        <div class="rellenoA">
+            <h2>MODA DE HOMBRE</h2>
+            <p style="font-size: 90%; padding: 0 120px;">Sabemos lo que la elegancia está en los detalles y cómo diferentes eventos precisan de diferentes prendas. En esta casa llevamos más de 40 años asesorando y vistiendo a las personalidades más influyentes, ayudando con ello al cierre de grandes acuerdos, a dar seriedad a hombres de negocios y solemnidad a afortunados maridos en el día más importante de su vida.</p>
+            <p style="text-align:center; font-size: 80%;"><strong> - Leer más - </strong></p>
+        </div>
+
+        <div class="separador">
+            <p> ~ MÁS QUE PRENDAS ELEGANTES ~ </p>
+        </div>
+        
+        <HR></HR>
+
+        <div class="inicioFormulario">
+            <div style="font-size: 80%; font-weight: 900; margin-bottom: 20px;">
+                <p><strong></strong></p>
+                <p><strong>ELEGANTE</strong></p>
+                <p><strong>ÚNICO</strong></p>
+                <p><strong>NEW NOW</strong></p>
+                <p><strong>FUERZA</strong></p>
+                <p><strong>TEMPORADA</strong></p>
+                <p><strong>CORBATAS</strong></p>
+                <p><strong>AMERICANAS</strong></p>
+                <p><strong>CAMISAS</strong></p>
+                <p><strong>PANTALONES</strong></p>
+                <p><strong> > </strong></p>
+            </div>
+            <p style="font-size: 80%;"><strong>Recibe promociones exclusivas, ventas privadas y novedades</strong></p>
+            <div class="formularioMentira" style="text-align: left; font-size: 90%; font-weight: 400; justify-content: left; padding-left: 20px;">Email</div>
+            <div class="formularioMentira"><strong>SUSCRIBIRME</strong></div>
+            <p style="font-size: 80%;">Al suscribirte aceptas nuestra <strong>política de privacidad.</strong></p>
+            <div style="font-size: 90%; font-weight: 900; margin-top: 50px">
+                <p>ESPAÑA (PENÍNSULA Y BALEARES)</p>
+                <p>CASTELLANO</p>
+                <p style="font-size: 140%; transform: translateY(-2px);">></p>
+            </div>
+            
+            <div style="font-size: 90%; font-weight: 900; margin-top: 10px;">
+                <p><strong>REDES SOCIALES</strong></p>
+                <p><strong>EVENTOS</strong></p>
+                <p><strong>COLECCIONES</strong></p>
+                <p><strong>ESTILO DE VIDA</strong></p>
+                <p><strong>SOBRE NOSOTROS</strong></p>
+                <p><strong>EXCLUSIVO</strong></p>
+            </div>
+        </div>
+        <div class="rellenoB">
+            <p><strong>AYUDA</strong></p>
+            <p><strong>MIS COMPRAS</strong></p>
+            <p><strong>DEVOLUCIONES</strong></p>
+            <p><strong>DÍAS ESPECIALES</strong></p>
+            <p><strong>EMPRESA</strong></p>
+            <p><strong>RESPONSABILIDAD</strong></p>
+            <p><strong>TRABAJA CON NOSOTROS</strong></p>
+            <p><strong>TARJETA REGALO</strong></p>
+            <p><strong>TALLERES DE SASTRERÍA</strong></p>
+            <p><strong>PRENSA</strong></p>
+            <p><strong>RECONOCIMIENTOS</strong></p>
+            <p><strong>EVENTOS</strong></p>
+        </div>
+
+    </div>
+
+    <div id="page2" class="page">
+        <section class="seccionCorbatas">
+            
+
+            <div class="filtros">
+                <h5>Home</h5>
+                <h5>Hombre</h5>
+                <h5><span>Corbatas</span></h5>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="6" x2="16" y2="6"></line>
+                    <circle cx="18" cy="6" r="2"></circle>
+
+                    <line x1="10" y1="12" x2="20" y2="12"></line>
+                    <circle cx="7" cy="12" r="2"></circle>
+
+                    <line x1="4" y1="18" x2="14" y2="18"></line>
+                    <circle cx="17" cy="18" r="2"></circle>
+                </svg>
+            </div>
+
+            <div class="gridCorbatas">
+                <div class="producto">
+                    <img src="img/01.jpg">
+                    <div class="detallesProducto">
+                        <div class="fila1">
+                            <p>Corbata #1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="text-align: left;"><strong>59.95€</strong></p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="img/02.jpg">
+                    <div class="detallesProducto">
+                        <div class="fila1">
+                            <p>Corbata #2</p>
+                            <p>+</p>
+                        </div>
+                        <p style="text-align: left;"><strong>59.95€</strong></p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="img/03.jpg">
+                    <div class="detallesProducto">
+                        <div class="fila1">
+                            <p>Corbata #1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="text-align: left;"><strong>59.95€</strong></p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="img/04.jpg">
+                    <div class="detallesProducto">
+                        <div class="fila1">
+                            <p>Corbata #1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="text-align: left;"><strong>59.95€</strong></p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="img/05.jpg">
+                    <div class="detallesProducto">
+                        <div class="fila1">
+                            <p>Corbata #1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="text-align: left;"><strong>59.95€</strong></p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="img/06.jpg">
+                    <div class="detallesProducto">
+                        <div class="fila1">
+                            <p>Corbata #1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="text-align: left;"><strong>59.95€</strong></p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="img/07.jpg">
+                    <div class="detallesProducto">
+                        <div class="fila1">
+                            <p>Corbata #1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="text-align: left;"><strong>59.95€</strong></p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="img/08.jpg">
+                    <div class="detallesProducto">
+                        <div class="fila1">
+                            <p>Corbata #1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="text-align: left;"><strong>59.95€</strong></p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="img/09.jpg">
+                    <div class="detallesProducto">
+                        <div class="fila1">
+                            <p>Corbata #1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="text-align: left;"><strong>59.95€</strong></p>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="img/10.jpg">
+                    <div class="detallesProducto">
+                        <div class="fila1">
+                            <p>Corbata #1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="text-align: left;"><strong>59.95€</strong></p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <div class="pagination-container">
+    <div class="pagination-info">
+        <span>Mostrando página 1 de 6</span>
+    </div>
+    
+        <nav class="pagination-nav">
+            <a href="#" class="nav-arrow disabled">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </a>
+
+            <div class="page-numbers">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <span class="dots">...</span>
+                <a href="#" class="page-link">6</a>
+            </div>
+
+            <a href="#" class="nav-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </a>
+            
+            
+        </nav>
+        
+        <div class="inicioFormulario">
+            <div style="font-size: 80%; font-weight: 900; margin-bottom: 20px;">
+                <p><strong></strong></p>
+                <p><strong>ELEGANTE</strong></p>
+                <p><strong>ÚNICO</strong></p>
+                <p><strong>NEW NOW</strong></p>
+                <p><strong>FUERZA</strong></p>
+                <p><strong>TEMPORADA</strong></p>
+                <p><strong>CORBATAS</strong></p>
+                <p><strong>AMERICANAS</strong></p>
+                <p><strong>CAMISAS</strong></p>
+                <p><strong>PANTALONES</strong></p>
+                <p><strong> > </strong></p>
+            </div>
+            <p style="font-size: 80%;"><strong>Recibe promociones exclusivas, ventas privadas y novedades</strong></p>
+            <div class="formularioMentira" style="text-align: left; font-size: 90%; font-weight: 400; justify-content: left; padding-left: 20px;">Email</div>
+            <div class="formularioMentira"><strong>SUSCRIBIRME</strong></div>
+            <p style="font-size: 80%;">Al suscribirte aceptas nuestra <strong>política de privacidad.</strong></p>
+            <div style="font-size: 90%; font-weight: 900; margin-top: 50px">
+                <p>ESPAÑA (PENÍNSULA Y BALEARES)</p>
+                <p>CASTELLANO</p>
+                <p style="font-size: 140%; transform: translateY(-2px);">></p>
+            </div>
+            
+            <div style="font-size: 90%; font-weight: 900; margin-top: 10px;">
+                <p><strong>REDES SOCIALES</strong></p>
+                <p><strong>EVENTOS</strong></p>
+                <p><strong>COLECCIONES</strong></p>
+                <p><strong>ESTILO DE VIDA</strong></p>
+                <p><strong>SOBRE NOSOTROS</strong></p>
+                <p><strong>EXCLUSIVO</strong></p>
+            </div>
+        </div>
+        <div class="rellenoB">
+            <p><strong>AYUDA</strong></p>
+            <p><strong>MIS COMPRAS</strong></p>
+            <p><strong>DEVOLUCIONES</strong></p>
+            <p><strong>DÍAS ESPECIALES</strong></p>
+            <p><strong>EMPRESA</strong></p>
+            <p><strong>RESPONSABILIDAD</strong></p>
+            <p><strong>TRABAJA CON NOSOTROS</strong></p>
+            <p><strong>TARJETA REGALO</strong></p>
+            <p><strong>TALLERES DE SASTRERÍA</strong></p>
+            <p><strong>PRENSA</strong></p>
+            <p><strong>RECONOCIMIENTOS</strong></p>
+            <p><strong>EVENTOS</strong></p>
+        </div>
+    </div>
+
+    </div>
+
+    <script>
+        function goToPage(pageId) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => {
+                page.classList.remove('active');
+                page.style.display = 'none'; 
+            });
+
+            const activePage = document.getElementById(pageId);
+            activePage.classList.add('active');
+            activePage.style.display = 'block';
+            
+            
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        
+        document.addEventListener('touchstart', function (event) {
+            if (event.touches.length > 1) {
+                event.preventDefault();
+            }
+        }, { passive: false });
+    </script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('SW activo', reg))
+            .catch(err => console.log('Error SW', err));
+        });
+      }
+    </script>
+
+</body>
+
+</html>
