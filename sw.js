@@ -1,4 +1,4 @@
-const CACHE_NAME = 'webCorbatas_v8';
+const CACHE_NAME = 'webCorbatas_v8.1';
 const ASSETS = [
   './',
   './index.html',
